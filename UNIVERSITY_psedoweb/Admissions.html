@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admissions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+            background-image: url("ad2.jpg");
+            background-size: contain;
+
+        }
+
+        header {
+            background-color: #02392b; 
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header img {
+            height: 2.5em;
+            margin-right: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+        }
+
+        nav {
+            background-color: #008000;
+            color: rgb(201, 203, 72);
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 10px 10px 10px;
+            color: black;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #006400; 
+        }
+
+        .container {
+            max-width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 30px 0; 
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px; 
+            color: black;
+            font-size: 2em; 
+        }
+
+        .admission-section {
+            background: white;
+            padding: 30px; 
+            margin-bottom: 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1); 
+            border: 1px solid #e0e0e0; 
+        }
+
+        .admission-section h2 {
+            color:#003366;
+            margin-bottom: 20px;
+            font-size: 1.5em; 
+        }
+
+        .admission-section ul {
+            list-style-type: disc; 
+            padding-left: 25px; 
+            margin-bottom: 20px;
+        }
+
+        .admission-section li {
+            margin-bottom: 12px; 
+            line-height: 1.7; 
+        }
+
+        .admission-section p {
+            margin-bottom: 20px;
+            line-height: 1.7;
+            font-size: 1.1em;
+        }
+
+        .call-to-action {
+            background-color: #007bff; 
+            color: white;
+            padding: 12px 25px; 
+            text-decoration: none;
+            border-radius: 8px;    
+            display: inline-block;
+            margin-top: 25px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease; 
+            border: none; 
+            cursor: pointer; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        }
+    
+
+        .call-to-action:hover {
+            background-color: #0056b3; 
+        }
+
+        .important-dates {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            border: 1px solid #ddd; 
+        }
+
+        .important-dates h3 {
+            color: #003366;
+            margin-bottom: 15px;
+            font-size: 1.3em; 
+        }
+
+        .important-dates ul {
+            list-style-type: disc;
+            padding-left: 25px;
+        }
+
+        .important-dates li {
+            margin-bottom: 10px;
+            font-weight: 500; 
+        }
+
+        footer {
+            background-color: #02392b;
+            color: white;
+            text-align: center;
+            padding: 25px 0; 
+            margin-top: 30px; 
+            border-top: 1px solid #00264d; 
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            .admission-section {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .section-title{
+                font-size: 1.75em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .admission-section ul {
+                padding-left: 20px;
+            }
+
+            .call-to-action {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+            header h1{
+                font-size: 1.75em;
+            }
+            header p{
+                font-size: 0.9em;
+            }
+            .section-title{
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>University Admissions</h1>
+    </header>
+
+    <nav>
+        <a href="Home Page.html">Home</a>
+        <a href="About Us.html">About</a>
+        <a href="Admissions.html">Admissions</a>
+        <a href="Program outline.html">Programs</a>
+        <a href="Contact Us.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2 class="section-title">Admissions Information</h2>
+
+        <div class="important-dates">
+            <h3>Key Application Dates</h3>
+            <ul>
+                <li>Application Opening Date: June 16, 2024</li>
+                <li>Early Application Deadline: September 15, 2024</li>
+                <li>Regular Application Deadline: February 1, 2025</li>
+                <li>Financial Aid Application Deadline: March 1, 2025</li>
+                <li>Admission Decision Notification: April 1, 2025</li>
+                <li>Enrollment Confirmation Deadline: May 1, 2025</li>
+            </ul>
+        </div>
+
+        <div class="admission-section">
+            <h2>Undergraduate Admissions</h2>
+            <p>Explore our diverse undergraduate programs and find your path to success. We offer a wide range of majors, minors, and specializations to suit your academic interests.</p>
+            <ul>
+                <li>Minimum High School GPA: 3.0 (on a 4.0 scale)</li>
+                <li>Standardized Tests: SAT or ACT scores are required.</li>
+                <li>Application Fee: $60</li>
+                <li>Required Documents:
+                    <ul>
+                        <li>Official High School Transcripts</li>
+                        <li>Letters of Recommendation (2)</li>
+                        <li>Personal Essay</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>For more detailed information about undergraduate admissions, including program-specific requirements, please visit our dedicated <a href="#" class="call-to-action">Undergraduate Admissions</a> page.</p>
+        </div>
+
+        <div class="admission-section">
+            <h2>Graduate Admissions</h2>
+            <p>Take your education to the next level with our challenging and rewarding graduate programs. We provide advanced learning opportunities and cutting-edge research experiences.</p>
+            <ul>
+                <li>Minimum Bachelor's Degree GPA: 3.25</li>
+                <li>Standardized Tests: GRE or GMAT scores (program-specific)</li>
+                <li>Application Fee: $75</li>
+                <li>Required Documents:
+                    <ul>
+                        <li>Official Transcripts from all Universities Attended</li>
+                        <li>Statement of Purpose</li>
+                        <li>Letters of Recommendation (3)</li>
+                        <li>Curriculum Vitae (CV) or Resume</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Learn more about our graduate programs and their specific admission requirements on our <a href="#" class="call-to-action">Graduate Admissions</a> page.</p>
+        </div>
+
+        <div class="admission-section">
+            <h2>International Admissions</h2>
+            <p>We welcome students from around the globe to our vibrant academic community. We are committed to providing support and resources to help you through the application process.</p>
+            <ul>
+                <li>English Language Proficiency: TOEFL or IELTS scores</li>
+                <li>Visa Requirements: F-1 or J-1 visa eligibility</li>
+                <li>Transcript Evaluation: Transcripts must be evaluated by an approved agency.</li>
+                <li>Financial Documentation: Proof of sufficient funds to cover tuition and living expenses.</li>
+            </ul>
+            <p>Find detailed information about applying as an international student, including visa requirements and accepted English language proficiency tests, on our <a href="#" class="call-to-action">International Admissions</a> page.</p>
+        </div>
+
+         <div class="admission-section">
+            <h2>Financial Aid</h2>
+            <p>We believe that a high-quality education should be accessible to all qualified students. We offer a variety of financial aid options, including scholarships, grants, and loans.</p>
+            <ul>
+                <li>Types of Aid: Merit-based scholarships, need-based grants, federal and private loans.</li>
+                <li>Application Process: Complete the Free Application for Federal Student Aid (FAFSA).</li>
+                <li>Eligibility: Varies depending on the type of aid.</li>
+            </ul>
+            <p>Explore our financial aid options and learn how to apply on our <a href="#" class="call-to-action">Financial Aid</a> page.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 University. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
